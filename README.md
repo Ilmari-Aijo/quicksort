@@ -33,6 +33,7 @@ namespace QuickSort
         private void btnAgregar_Click(object sender, EventArgs e)
         {
             int vector;
+            
             vector = int.Parse(txtNro.Text);
             lstOriginal.Items.Add(vector);
             txtNro.Clear();
