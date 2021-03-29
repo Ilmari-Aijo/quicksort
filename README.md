@@ -1,5 +1,3 @@
-# quicksort
-
 using System;
 
 using System.Collections.Generic;
@@ -23,6 +21,7 @@ namespace QuickSort
     public partial class frmQuickSort : Form
     {
         List<int> nuevalista = new List<int>();
+    
         public frmQuickSort()
         {
             InitializeComponent();
